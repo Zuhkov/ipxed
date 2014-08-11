@@ -4,10 +4,11 @@
     <legend>Profile Details</legend>
 
     <label for="name">Name</label>
-    <input type="text" id="name" name="name" />
+    <input type="text" id="name" name="name" required/>
 
     <label for="release">Release Channel</label>
     <select name="release">
+      <option value="stable">Stable</option>
       <option value="beta">Beta</option>
       <option value="alpha">Alpha</option>
     </select>
@@ -32,7 +33,7 @@
     </select>
 	<label for="root">Root</label>
     <input type="text" id="root" name="root" />
-	
+
     <fieldset>
       <legend>Console</legend>
       <label for="tty0">tty0</label>
